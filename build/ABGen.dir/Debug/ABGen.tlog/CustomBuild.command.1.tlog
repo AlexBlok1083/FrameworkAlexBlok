@@ -1,0 +1,10 @@
+^C:\USERS\ALEX BLOK (SCHOOL)\DESKTOP\SCHOOL\SCHOOLJAAR 2021-2022\PERIODE 3\FRAMEWORKALEXBLOK\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Alex Blok (School)/Desktop/School/Schooljaar 2021-2022/Periode 3/FrameworkAlexBlok" "-BC:/Users/Alex Blok (School)/Desktop/School/Schooljaar 2021-2022/Periode 3/FrameworkAlexBlok/build" --check-stamp-file "C:/Users/Alex Blok (School)/Desktop/School/Schooljaar 2021-2022/Periode 3/FrameworkAlexBlok/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

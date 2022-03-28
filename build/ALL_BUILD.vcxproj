@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C7E17193-B543-30E6-B378-BC2597695B7A}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\external\glfw-3.3.5\include;C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\external\glm-0.9.9.8;C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\external\glew-2.1.0\include;C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\external\glfw-3.3.5\include;C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\external\glm-0.9.9.8;C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\external\glew-2.1.0\include;C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\external\glfw-3.3.5\include;C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\external\glm-0.9.9.8;C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\external\glew-2.1.0\include;C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\external\glfw-3.3.5\include;C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\external\glm-0.9.9.8;C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\external\glew-2.1.0\include;C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Alex Blok (School)/Desktop/School/Schooljaar 2021-2022/Periode 3/FrameworkAlexBlok/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Alex Blok (School)/Desktop/School/Schooljaar 2021-2022/Periode 3/FrameworkAlexBlok" "-BC:/Users/Alex Blok (School)/Desktop/School/Schooljaar 2021-2022/Periode 3/FrameworkAlexBlok/build" --check-stamp-file "C:/Users/Alex Blok (School)/Desktop/School/Schooljaar 2021-2022/Periode 3/FrameworkAlexBlok/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\CMakeFiles\3.22.0-rc3\CMakeCCompiler.cmake;C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\CMakeFiles\3.22.0-rc3\CMakeCXXCompiler.cmake;C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\CMakeFiles\3.22.0-rc3\CMakeRCCompiler.cmake;C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\CMakeFiles\3.22.0-rc3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Alex Blok (School)/Desktop/School/Schooljaar 2021-2022/Periode 3/FrameworkAlexBlok/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Alex Blok (School)/Desktop/School/Schooljaar 2021-2022/Periode 3/FrameworkAlexBlok" "-BC:/Users/Alex Blok (School)/Desktop/School/Schooljaar 2021-2022/Periode 3/FrameworkAlexBlok/build" --check-stamp-file "C:/Users/Alex Blok (School)/Desktop/School/Schooljaar 2021-2022/Periode 3/FrameworkAlexBlok/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\CMakeFiles\3.22.0-rc3\CMakeCCompiler.cmake;C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\CMakeFiles\3.22.0-rc3\CMakeCXXCompiler.cmake;C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\CMakeFiles\3.22.0-rc3\CMakeRCCompiler.cmake;C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\CMakeFiles\3.22.0-rc3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Alex Blok (School)/Desktop/School/Schooljaar 2021-2022/Periode 3/FrameworkAlexBlok/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Alex Blok (School)/Desktop/School/Schooljaar 2021-2022/Periode 3/FrameworkAlexBlok" "-BC:/Users/Alex Blok (School)/Desktop/School/Schooljaar 2021-2022/Periode 3/FrameworkAlexBlok/build" --check-stamp-file "C:/Users/Alex Blok (School)/Desktop/School/Schooljaar 2021-2022/Periode 3/FrameworkAlexBlok/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\CMakeFiles\3.22.0-rc3\CMakeCCompiler.cmake;C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\CMakeFiles\3.22.0-rc3\CMakeCXXCompiler.cmake;C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\CMakeFiles\3.22.0-rc3\CMakeRCCompiler.cmake;C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\CMakeFiles\3.22.0-rc3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Alex Blok (School)/Desktop/School/Schooljaar 2021-2022/Periode 3/FrameworkAlexBlok/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Alex Blok (School)/Desktop/School/Schooljaar 2021-2022/Periode 3/FrameworkAlexBlok" "-BC:/Users/Alex Blok (School)/Desktop/School/Schooljaar 2021-2022/Periode 3/FrameworkAlexBlok/build" --check-stamp-file "C:/Users/Alex Blok (School)/Desktop/School/Schooljaar 2021-2022/Periode 3/FrameworkAlexBlok/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\CMakeFiles\3.22.0-rc3\CMakeCCompiler.cmake;C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\CMakeFiles\3.22.0-rc3\CMakeCXXCompiler.cmake;C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\CMakeFiles\3.22.0-rc3\CMakeRCCompiler.cmake;C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\CMakeFiles\3.22.0-rc3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\ZERO_CHECK.vcxproj">
+      <Project>{7BC396C4-4FB2-3E71-AF33-35CC557FCC4A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\ABGen.vcxproj">
+      <Project>{0C74706D-1788-3691-B1AF-E46EA0BECDA7}</Project>
+      <Name>ABGen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\external\GLEW_210.vcxproj">
+      <Project>{CF178B15-B0C0-3C32-8989-70D8D3958752}</Project>
+      <Name>GLEW_210</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\Test.vcxproj">
+      <Project>{22EDF4F6-8E2F-3495-9E57-74EB0BCCF310}</Project>
+      <Name>Test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\external\glfw-3.3.5\tests\clipboard.vcxproj">
+      <Project>{14CCC710-3C40-38DA-B719-8E6B5666BC13}</Project>
+      <Name>clipboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\external\glfw-3.3.5\tests\cursor.vcxproj">
+      <Project>{13E0A6E3-4715-3155-8AAB-36786136C7EA}</Project>
+      <Name>cursor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\external\glfw-3.3.5\docs\docs.vcxproj">
+      <Project>{FFA57099-3AFA-3999-80F9-62CBF253B73B}</Project>
+      <Name>docs</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\external\glfw-3.3.5\tests\empty.vcxproj">
+      <Project>{F23BF2A8-3721-3C22-B2EB-069C6BFCCA4F}</Project>
+      <Name>empty</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\external\glfw-3.3.5\tests\events.vcxproj">
+      <Project>{2643B7A9-B9E9-3FBF-BD4A-ABB268DBF291}</Project>
+      <Name>events</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\external\glfw-3.3.5\tests\gamma.vcxproj">
+      <Project>{81AEDCBC-E7FF-3ED7-A6CC-5DDDC475AC69}</Project>
+      <Name>gamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\external\glfw-3.3.5\src\glfw.vcxproj">
+      <Project>{351421E2-C9CF-354E-9261-0F1040E787B6}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\external\glfw-3.3.5\tests\glfwinfo.vcxproj">
+      <Project>{3829EB19-2E15-3917-8B25-61EF27B267F5}</Project>
+      <Name>glfwinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\external\glfw-3.3.5\tests\icon.vcxproj">
+      <Project>{E524FEE4-4D07-37D9-A3C1-595268386297}</Project>
+      <Name>icon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\external\glfw-3.3.5\tests\iconify.vcxproj">
+      <Project>{D119AEBC-A715-3A3F-9D67-C54AD493B342}</Project>
+      <Name>iconify</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\external\glfw-3.3.5\tests\inputlag.vcxproj">
+      <Project>{B2B5BB7C-25FF-3954-9D08-CD8BC4A8CA0B}</Project>
+      <Name>inputlag</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\external\glfw-3.3.5\tests\joysticks.vcxproj">
+      <Project>{59EC4419-6738-3826-9EDC-B51E73FEE496}</Project>
+      <Name>joysticks</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\external\glfw-3.3.5\tests\monitors.vcxproj">
+      <Project>{C189918B-C804-3940-AE33-25936A1A1F16}</Project>
+      <Name>monitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\external\glfw-3.3.5\tests\msaa.vcxproj">
+      <Project>{0229EDF4-6E37-3CBA-ABDC-89C6BEA6E660}</Project>
+      <Name>msaa</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\external\glfw-3.3.5\tests\opacity.vcxproj">
+      <Project>{4D246E7D-B9B8-34A5-9C7D-B59AEF3255D1}</Project>
+      <Name>opacity</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\external\glfw-3.3.5\tests\reopen.vcxproj">
+      <Project>{DAAF285C-0566-3161-AB95-168D8A3E6AB0}</Project>
+      <Name>reopen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\external\glfw-3.3.5\tests\tearing.vcxproj">
+      <Project>{B575ECC0-7643-30EA-A82A-F4D359FE1C58}</Project>
+      <Name>tearing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\external\glfw-3.3.5\tests\threads.vcxproj">
+      <Project>{7D43BA63-7C41-381F-AAC1-83C19A07AE62}</Project>
+      <Name>threads</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\external\glfw-3.3.5\tests\timeout.vcxproj">
+      <Project>{6CFDFEC6-0A14-33D9-B454-3AF7A3825F43}</Project>
+      <Name>timeout</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\external\glfw-3.3.5\tests\title.vcxproj">
+      <Project>{F925E4FB-84D3-37FA-B6D9-307B720D081D}</Project>
+      <Name>title</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\external\glfw-3.3.5\tests\triangle-vulkan.vcxproj">
+      <Project>{42007AEF-7D7B-3CE5-B2AE-016BE7967B83}</Project>
+      <Name>triangle-vulkan</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Alex Blok (School)\Desktop\School\Schooljaar 2021-2022\Periode 3\FrameworkAlexBlok\build\external\glfw-3.3.5\tests\windows.vcxproj">
+      <Project>{5D247FF1-C186-3B19-917D-F3EDA579D6FD}</Project>
+      <Name>windows</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
