@@ -7,7 +7,6 @@
 
 // Include GLFW
 #include <GLFW/glfw3.h>
-GLFWwindow* window;
 
 // Include GLM
 #include <glm/glm.hpp>
@@ -19,7 +18,6 @@ int main(void)
 	if (!glfwInit())
 	{
 		fprintf(stderr, "Failed to initialize GLFW\n");
-		getchar();
 		return -1;
 	}
 
@@ -30,10 +28,10 @@ int main(void)
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
 	// Open a window and create its OpenGL context
-	window = glfwCreateWindow(1920, 1280, "Tutorial 01", NULL, NULL);
+	GLFWwindow* window;
+	window = glfwCreateWindow(1920, 1280, "ABGen", NULL, NULL);
 	if (window == NULL) {
-		fprintf(stderr, "Failed to open GLFW window. If you have an Intel GPU, they are not 3.3 compatible. Try the 2.1 version of the tutorials.\n");
-		getchar();
+		fprintf(stderr, "Failed to open GLFW window. If you have an Intel GPU, they are not compatible with version. Try Other version.\n");
 		glfwTerminate();
 		return -1;
 	}
@@ -42,7 +40,6 @@ int main(void)
 	// Initialize GLEW
 	if (glewInit() != GLEW_OK) {
 		fprintf(stderr, "Failed to initialize GLEW\n");
-		getchar();
 		glfwTerminate();
 		return -1;
 	}
